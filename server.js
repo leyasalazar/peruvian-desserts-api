@@ -13,6 +13,9 @@ const peruvianDesserts = {
     'arroz con leche': {'description': "Arroz con leche is a sweet rice pudding that's deliciously creamy. This dessert is made with rice and milk, and is flavored with cinnamon, vanilla, and sometimes raisins."},
     'alfajores': {'description': "It's a cookie sandwich with cinnamon-infused dulce de leche, then rolled in powdered sugar. "},
     'chicha morada': {'description': "It's a healthy, invigorating drink made with purple corn, green apples, lime juice, and a few spices. "},
+    'unknown': {
+        'description': 'unknown'
+    }
 }
 
 app.get('/',(request, response)=> {
